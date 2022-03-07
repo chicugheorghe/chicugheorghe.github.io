@@ -447,6 +447,92 @@ footer a:hover {
   color: #e7e7e7;
 }
 
+@media only screen and (max-width: 1115px) {
+  header .iframe2 {
+    position: absolute;
+    margin: -250px -383px;
+  }
+  header .crypto1 {
+    display: none;
+  }
+  header .crypto {
+    z-index: 3;
+    position: absolute;
+    max-width: 50%;
+    max-height: 80%;
+    margin: 582px 451px;
+  }
+  header .crypto:hover {
+    max-width: 50%;
+    max-height: 80%;
+  }
+}
+
+@media only screen and (max-width: 908px) {
+  .container-3-position .container-3 {
+    width: 320px;
+    height: 366px;
+    margin: 11px 13px;
+    -webkit-transition: ease-in-out 0.8s;
+    transition: ease-in-out 0.8s;
+  }
+}
+
+@media only screen and (max-width: 864px) {
+  body {
+    overflow-x: hidden;
+  }
+  header .crypto {
+    margin: 582px 127px;
+  }
+  .info-mmm {
+    width: 588px;
+    padding-top: 14em;
+    padding-left: 127px;
+    -webkit-transition: ease-in 0.3s;
+    transition: ease-in 0.3s;
+  }
+  .container-1 {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container-1 .container-2 {
+    margin: 25px;
+  }
+}
+
+@media only screen and (max-width: 788px) {
+  .container-3-position .container-3 {
+    width: 295px;
+    height: 362px;
+    margin: 12px 10px;
+  }
+  .container-3-position .container-3 .container-3-detail {
+    padding-top: 15px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 864px) {
+  header .logo {
+    width: 30%;
+    margin: 15px 250px;
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  header .nav-link {
+    margin: 60px 220px;
+    font-size: 30px;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   body {
     width: 100%;
