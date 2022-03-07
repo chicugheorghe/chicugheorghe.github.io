@@ -482,17 +482,77 @@ flex-direction: column;
 
 @media only screen and (max-width: 864px){
     header .logo{
-        width: 30%;
-        margin: 15px 250px;
+        max-width: 30%;
+        text-align: center;
         transform: rotate(0);
     }
     header .nav-link{
-        margin: 60px 220px;
+        text-align: center;
+        margin-top: 60px;
+        margin-left: 20%;
+        
         font-size: 30px;
     }
 }
+@media only screen and (max-width: 864px){
+    header .nav-link{
+      text-align: center;
+      justify-content: center;
+        
+    }  
+    .info-mmm{
+        width: 514px;
+    height: 195px;
+    font-size: 22px;
 
-@media only screen and (max-width: 375px) {
+    span{
+        font-size: 25px;
+        to {
+          margin-left: -58%;
+          width: 100%;
+        }
+      }
+    }
+    .contact-form{
+        margin-left: -10px;
+        .input-lastName{
+            input{
+                margin-top: -20px;
+            }
+            
+        }
+    }
+    
+    .contact-form .input-mail input {
+        width: 500px;
+    }
+    .contact-form .input-comment input {
+        width: 500px;}
+
+}
+
+@media only screen and (max-width: 575px){
+    header .nav-link{
+       margin-left: -30px;
+          
+      } 
+    .info-mmm{
+        width: 514px;
+    height: 195px;
+    margin-left: -100px;
+    font-size: 22px;
+
+    span{
+        font-size: 20px;
+        to {
+          margin-left: -58%;
+          width: 100%;
+        }
+      }
+    }
+
+}
+@media only screen and (max-width: 460px) {
     body{
         width: 100%;
     }
@@ -502,7 +562,7 @@ flex-direction: column;
 
     header .logo{
         width: 50%;
-        margin: 15px 80px;
+        margin: 15px 130px;
         transform: rotate(0);
     }
     header .crypto {
@@ -519,16 +579,16 @@ flex-direction: column;
     }
 
     header .nav-link{
-        padding: 115px 40px;
+        padding: 0px 40px;
     }
    header .iframe2{
         position: absolute;
-    margin: -309px -333px;
+    margin: -209px -333px;
 
     }
 
     .info-mmm{
-        width: 358px;
+        width: 440px;
     height: 195px;
     font-size: 22px;
 
