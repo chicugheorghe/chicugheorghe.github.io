@@ -3,7 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -88,7 +88,7 @@ header .nav-link a {
   font-size: 20px;
   color: white;
   text-decoration: unset;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   -webkit-transition: ease-in-out 0.1ms;
   transition: ease-in-out 0.1ms;
   opacity: 50%;
@@ -154,7 +154,7 @@ header .text-header {
   bottom: 0px;
   position: absolute;
   margin: 20px 55%;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 .info-mmm {
@@ -315,7 +315,7 @@ header .text-header {
 
 .contact p {
   color: whitesmoke;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 100;
   padding-top: 30px;
   font-size: 25px;
