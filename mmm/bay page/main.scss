@@ -292,7 +292,7 @@ margin-left: 30em;
   }
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 375px){
 main{
   width: 100%;
 }
@@ -300,7 +300,7 @@ main{
     display: flex;
     flex-direction: column;
     .card {
-      width: 351px;
+      width: 300px;
     height: 285px;
       margin: 15px auto;
       padding: 20px 0;
@@ -311,15 +311,18 @@ main{
 
  main .section-1{
    h1 {
-    text-align: center;
+    margin-left: -45px;
     font-size: 25px;
+}
+.title-description p{
+  margin-left: -20px;
 }
      img {
       z-index: -1;
       position: absolute;
       margin: 88px 0;
-      left: 36px;
-      height: 328px;
+      left: 33px;
+      height: 280px;
       opacity: 80%;
   }
 
@@ -331,6 +334,9 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    .card-section2 {
+      width: 296px;
+    }
 
   }
  
@@ -342,13 +348,15 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
+    h2{
+      font-size: 25px;
+    }
     .section3-card{
       margin-top: 7em;
       width: 300px;
-      height: 500px;
+      height: 550px;
       text-align: center;
-      box-shadow: 1px 1px 1px 0px #333;
+      box-shadow: 0px 1px 0px 0px #333;
     
       img{
         width: 100%;
@@ -371,10 +379,52 @@ main{
     
     p{
       margin: 10em 5px;
-    margin-left: 0em;
+    
     
     }
     }
     
     }
+
+    main .section4{
+     
+        h2 {
+          width: 172px;
+        position: absolute;
+        margin-top: 0em;
+        font-size: 20px;
+      }
+      .img-s4 {
+        margin-left: -70px;
+        margin-top: 45em;
+    }
+  img {
+      margin-left: -100px;
+      width: 338px;
+      height: 441px;
+    margin-top: 5em;
+    }
+
+    .img2-s4 {
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      margin-top: 1055px;
+      margin-left: -4em;
+  }
+  .contact-email #input-email {
+    margin-top: 29em;
+    margin-left: -4em;
+    width: 298px;
+    z-index: 999;
+    position: absolute;
+  }
+  .contact-email button {
+    
+    margin-top: 615px;
+    margin-left: 2em;
+   
+}
+    }
+    
 }

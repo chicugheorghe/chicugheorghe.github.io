@@ -323,7 +323,7 @@ main .section4 .contact-email button:hover {
   background-color: #ff5571;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
   main {
     width: 100%;
   }
@@ -337,21 +337,24 @@ main .section4 .contact-email button:hover {
             flex-direction: column;
   }
   main .card-align .card {
-    width: 351px;
+    width: 300px;
     height: 285px;
     margin: 15px auto;
     padding: 20px 0;
   }
   main .section-1 h1 {
-    text-align: center;
+    margin-left: -45px;
     font-size: 25px;
+  }
+  main .section-1 .title-description p {
+    margin-left: -20px;
   }
   main .section-1 img {
     z-index: -1;
     position: absolute;
     margin: 88px 0;
-    left: 36px;
-    height: 328px;
+    left: 33px;
+    height: 280px;
     opacity: 80%;
   }
   main .section-align {
@@ -369,6 +372,9 @@ main .section4 .contact-email button:hover {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  main .section-align .card-section2 {
+    width: 296px;
+  }
   section .section3 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -380,13 +386,16 @@ main .section4 .contact-email button:hover {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+  section .section3 h2 {
+    font-size: 25px;
+  }
   section .section3 .section3-card {
     margin-top: 7em;
     width: 300px;
-    height: 500px;
+    height: 550px;
     text-align: center;
-    -webkit-box-shadow: 1px 1px 1px 0px #333;
-            box-shadow: 1px 1px 1px 0px #333;
+    -webkit-box-shadow: 0px 1px 0px 0px #333;
+            box-shadow: 0px 1px 0px 0px #333;
   }
   section .section3 .section3-card img {
     width: 100%;
@@ -404,7 +413,40 @@ main .section4 .contact-email button:hover {
   }
   section .section3 .section3-info p {
     margin: 10em 5px;
-    margin-left: 0em;
+  }
+  main .section4 h2 {
+    width: 172px;
+    position: absolute;
+    margin-top: 0em;
+    font-size: 20px;
+  }
+  main .section4 .img-s4 {
+    margin-left: -70px;
+    margin-top: 45em;
+  }
+  main .section4 img {
+    margin-left: -100px;
+    width: 338px;
+    height: 441px;
+    margin-top: 5em;
+  }
+  main .section4 .img2-s4 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-top: 1055px;
+    margin-left: -4em;
+  }
+  main .section4 .contact-email #input-email {
+    margin-top: 29em;
+    margin-left: -4em;
+    width: 298px;
+    z-index: 999;
+    position: absolute;
+  }
+  main .section4 .contact-email button {
+    margin-top: 615px;
+    margin-left: 2em;
   }
 }
 /*# sourceMappingURL=main.css.map */
