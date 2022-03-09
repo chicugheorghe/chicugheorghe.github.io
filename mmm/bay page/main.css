@@ -323,7 +323,10 @@ main .section4 .contact-email button:hover {
   background-color: #ff5571;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 320px) {
+  main {
+    width: 100%;
+  }
   main .card-align {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -350,6 +353,58 @@ main .section4 .contact-email button:hover {
     left: 36px;
     height: 328px;
     opacity: 80%;
+  }
+  main .section-align {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section .section3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  section .section3 .section3-card {
+    margin-top: 7em;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 1px 0px #333;
+            box-shadow: 1px 1px 1px 0px #333;
+  }
+  section .section3 .section3-card img {
+    width: 100%;
+    height: 70px;
+  }
+  section .section3 .section3-card p {
+    margin-top: 2em;
+    font-size: 22px;
+  }
+  section .section3 .section3-info {
+    position: absolute;
+    width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+  }
+  section .section3 .section3-info p {
+    margin: 10em 5px;
+    margin-left: 0em;
   }
 }
 /*# sourceMappingURL=main.css.map */
