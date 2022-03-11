@@ -18,6 +18,10 @@
   background: #03031c;
 }
 
+body {
+  width: 100%;
+}
+
 header {
   height: 20em;
   background-image: url(./img/wave.svg);
@@ -323,6 +327,156 @@ main .section4 .contact-email button:hover {
   background-color: #ff5571;
 }
 
+@media only screen and (max-width: 1115px) {
+  main .section-align .card-section2 {
+    width: 250px;
+  }
+  section .section3 .section3-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+    width: 300px;
+    height: 550px;
+    text-align: center;
+    -webkit-box-shadow: 0px 1px 0px 0px #f53a97;
+            box-shadow: 0px 1px 0px 0px #f53a97;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section .section3 .section3-card #title-section3 {
+    margin-top: 50px;
+    font-size: 25px;
+  }
+  section .section3 .section3-card .section3-info p {
+    margin-top: 398px;
+    margin-left: 240px;
+  }
+  section .section3 .section3-card p {
+    width: 700px;
+    margin-left: 200px;
+    margin-top: 7em;
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 1115px) and (max-width: 1024px) {
+  main .section-align {
+    margin: 10px 83px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main .section-align .card-section2 {
+    margin-top: -50px;
+    width: 350px;
+    height: 420px;
+  }
+}
+
+@media only screen and (max-width: 895px) {
+  main .section-align {
+    width: 100%;
+    margin: 0px 0px;
+  }
+  main .section-align .card-section2 {
+    margin-top: -50px;
+    width: 300px;
+    height: 420px;
+  }
+  main .section-1 .title-description p {
+    position: absolute;
+    width: 673px;
+  }
+  main .section-1 img {
+    margin: 80px -576px;
+  }
+  main .card-align .card {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  main .card-align {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .card-align .card {
+    margin-top: 30px;
+  }
+  main .section-1 .title-description p {
+    position: absolute;
+    width: 528px;
+  }
+  main h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  section .section3 .section3-info p {
+    width: 400px;
+    font-size: 18px;
+    padding-left: 150px;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  main .section-align {
+    width: 100%;
+  }
+  main .section-align .card-section2 {
+    width: 253px;
+    height: 362px;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  main .section-1 .title-description p {
+    font-size: 20px;
+    position: absolute;
+    width: 468px;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  main .section-1 .title-description p {
+    font-size: 18px;
+    width: 314px;
+  }
+  main .section-1 img {
+    height: 335px;
+    margin: 80px -366px;
+  }
+  section .section3 .section3-info p {
+    width: 300px;
+    height: 200px;
+    font-size: 18px;
+    padding-left: 200px;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   main {
     width: 100%;
@@ -347,7 +501,8 @@ main .section4 .contact-email button:hover {
     font-size: 25px;
   }
   main .section-1 .title-description p {
-    margin-left: -20px;
+    margin-left: -39px;
+    width: 295px;
   }
   main .section-1 img {
     z-index: -1;
@@ -358,6 +513,7 @@ main .section4 .contact-email button:hover {
     opacity: 80%;
   }
   main .section-align {
+    margin-top: 10em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -375,6 +531,12 @@ main .section4 .contact-email button:hover {
   main .section-align .card-section2 {
     width: 296px;
   }
+  main .section2 {
+    margin-top: -3em;
+  }
+  main section h2 {
+    margin-top: 13em;
+  }
   section .section3 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -387,32 +549,28 @@ main .section4 .contact-email button:hover {
         justify-content: space-around;
   }
   section .section3 h2 {
-    font-size: 25px;
+    margin-top: 20px;
+    font-size: 22px;
   }
   section .section3 .section3-card {
-    margin-top: 7em;
     width: 300px;
-    height: 550px;
+    height: 900px;
+    margin-top: -250px;
     text-align: center;
-    -webkit-box-shadow: 0px 1px 0px 0px #333;
-            box-shadow: 0px 1px 0px 0px #333;
-  }
-  section .section3 .section3-card img {
-    width: 100%;
-    height: 70px;
+    -webkit-box-shadow: 0px 1px 0px 0px #f719d9;
+            box-shadow: 0px 1px 0px 0px #f719d9;
   }
   section .section3 .section3-card p {
-    margin-top: 2em;
-    font-size: 22px;
+    font-size: 20px;
   }
   section .section3 .section3-info {
     position: absolute;
-    width: 300px;
+    width: 1200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 100;
   }
   section .section3 .section3-info p {
-    margin: 10em 5px;
+    margin: -1em 0px;
   }
   main .section4 h2 {
     width: 172px;
@@ -426,12 +584,12 @@ main .section4 .contact-email button:hover {
   }
   main .section4 img {
     margin-left: -100px;
-    width: 338px;
+    width: 334px;
     height: 441px;
     margin-top: 5em;
   }
   main .section4 .img2-s4 {
-    width: 300px;
+    width: 295px;
     height: 300px;
     position: absolute;
     margin-top: 1055px;
