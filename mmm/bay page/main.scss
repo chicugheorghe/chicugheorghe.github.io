@@ -452,6 +452,9 @@ section .section3 .section3-info{
 
 
 @media only screen and (max-width: 375px){
+  body{
+    overflow-x: hidden;
+  }
 main{
   width: 100%;
 }

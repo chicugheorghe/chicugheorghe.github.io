@@ -478,6 +478,9 @@ main .section4 .contact-email button:hover {
 }
 
 @media only screen and (max-width: 375px) {
+  body {
+    overflow-x: hidden;
+  }
   main {
     width: 100%;
   }
