@@ -366,6 +366,44 @@ main .section4 .contact-email button:hover {
     margin-top: 7em;
     font-size: 22px;
   }
+  main .section4 img {
+    position: absolute;
+    margin-top: 5em;
+    margin-left: 10em;
+  }
+  main .section4 .img-s4 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 19em;
+    margin-top: 73em;
+  }
+  main .section4 .img2-s4 {
+    margin-left: 19em;
+    margin-top: 52em;
+  }
+  main .section4 .contact-email #input-email {
+    margin-top: 37em;
+    margin-left: 15em;
+    width: 298px;
+    z-index: 999;
+    position: absolute;
+  }
+  main .section4 .contact-email button {
+    margin-top: 737px;
+    margin-left: 20em;
+  }
+  main .section4 h2 {
+    margin-top: 50px;
+    width: 679px;
+  }
+  main section h2 {
+    position: absolute;
+    margin-top: -10em;
+    font-size: 40px;
+    color: #333;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 1115px) and (max-width: 1024px) {
@@ -439,6 +477,41 @@ main .section4 .contact-email button:hover {
     width: 400px;
     font-size: 18px;
     padding-left: 150px;
+  }
+  main .section4 img {
+    position: absolute;
+    margin-top: 5em;
+    margin-left: -6em;
+  }
+  main .section4 .img-s4 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 1em;
+    margin-top: 73em;
+  }
+  main .section4 .img2-s4 {
+    margin-left: 0em;
+    margin-top: 52em;
+  }
+  main .section4 .contact-email #input-email {
+    margin-top: 37em;
+    margin-left: 1em;
+    width: 298px;
+    z-index: 999;
+    position: absolute;
+  }
+  main .section4 .contact-email button {
+    margin-top: 737px;
+    margin-left: 6em;
+  }
+  main .section4 h2 {
+    margin-top: 50px;
+    width: 389px;
+    font-size: 25px;
+  }
+  main section h2 {
+    margin-top: -10em;
   }
 }
 
@@ -552,7 +625,7 @@ main .section4 .contact-email button:hover {
         justify-content: space-around;
   }
   section .section3 h2 {
-    margin-top: 20px;
+    margin-top: -652px;
     font-size: 22px;
   }
   section .section3 .section3-card {

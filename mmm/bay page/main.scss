@@ -296,6 +296,8 @@ margin-left: 30em;
 }
 
 @media only screen and (max-width: 1115px){
+  
+  
   main .section-align{
     
     .card-section2 {
@@ -333,7 +335,53 @@ margin-left: 30em;
       
     }
     
+    
   }
+  main .section4 img {
+    position: absolute;
+    margin-top: 5em;
+    margin-left: 10em;
+  }
+  
+  main .section4 .img-s4 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 19em;
+    margin-top: 73em;
+}
+  main .section4{
+   .img2-s4 {
+    margin-left: 19em;
+    margin-top: 52em;
+   
+}
+.contact-email #input-email {
+  margin-top: 37em;
+    margin-left: 15em;
+  width: 298px;
+  z-index: 999;
+  position: absolute;
+}
+.contact-email button {
+  
+  margin-top: 737px;
+    margin-left: 20em;
+ 
+}
+
+}
+main .section4 h2 {
+  margin-top: 50px;
+  width: 679px;
+}
+main section h2 {
+  position: absolute;
+  margin-top: -10em;
+  font-size: 40px;
+  color: #333;
+  text-align: center;
+}
   @media only screen and (max-width: 1024px){
     main .section-align{
       margin: 10px 83px;
@@ -405,6 +453,48 @@ section .section3 .section3-info{
 
   }
  
+}
+main .section4 img {
+  position: absolute;
+  margin-top: 5em;
+  margin-left: -6em;
+}
+
+main .section4 .img-s4 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  margin-left: 1em;
+  margin-top: 73em;
+}
+main .section4{
+ .img2-s4 {
+  margin-left: 0em;
+  margin-top: 52em;
+ 
+}
+.contact-email #input-email {
+margin-top: 37em;
+  margin-left: 1em;
+width: 298px;
+z-index: 999;
+position: absolute;
+}
+.contact-email button {
+
+margin-top: 737px;
+  margin-left: 6em;
+
+}
+
+}
+main .section4 h2 {
+margin-top: 50px;
+width: 389px;
+font-size: 25px;
+}
+main section h2 {
+margin-top: -10em;
 }
 }
 @media only screen and (max-width: 625px){
@@ -520,7 +610,7 @@ main{
     flex-direction: column;
     justify-content: space-around;
     h2{
-      margin-top: 20px;
+      margin-top: -652px;
       font-size: 22px;
     }
     .section3-card{
