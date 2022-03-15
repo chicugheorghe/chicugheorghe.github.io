@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "MyFont";
+  src: url(./Fonts/Leander.ttf);
+}
+
+
+* {
+  font-family: "MyFont", sans-serif, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  
+}
+
+body {
+    background: url(./photo/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+    nav{
+       a #logo{
+            width: 10%;
+            margin: 10px;
+            opacity: 50%;
+            
+            &:hover{
+                filter: drop-shadow(2px 4px 6px black);
+            }
+        }
+
+        h4{
+            margin: 50px 50px;
+            font-size: 380%;
+            color: white;
+
+        }
+        p{
+            width: 30%;
+            margin: 50px 50px;
+            font-size: 150%;
+            color: white; 
+        }
+        .info{
+            font-size: 90%; 
+        }
+    }
+
+    //MAIN///////////////////////////////
+    main{
+        video{
+            width: 100%;
+            opacity: 70%;
+            transition: ease-in-out 0.3s;
+            &:hover{
+                opacity: 100%;
+            }
+        }
+    }
+    
+//SECTION1/////////////////////////////////////////
+
+    .section1{
+        height: 60px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        p{
+            color: white;
+            font-size: 45px;
+            cursor: pointer;
+            &:hover{
+                filter: drop-shadow(2px 4px 6px black);
+                border-bottom: 2px groove white;  
+            }
+        }
+
+
+    }
+
+    //SECTION2//////////////////////////////////////
+
+    .section2{
+        width: 100%;
+        margin-top:100px;
+        display: flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        iframe {
+            margin:15px 0;
+            width: 30%;
+            height: 253px;
+            border: none;
+            opacity: 50%;
+            transition: ease-in-out 0.2s;
+            &:hover{
+                opacity: 100%;
+            }
+        }
+        
+    }
+
+
+}
+
+
