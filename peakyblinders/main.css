@@ -277,6 +277,9 @@ body .section2 p {
     width: 80%;
     font-size: 120%;
   }
+  body nav #play {
+    margin-left: 110px;
+  }
   body main .section1 {
     margin-left: -13px;
     width: 100%;
