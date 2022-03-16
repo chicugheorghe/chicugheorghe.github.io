@@ -65,6 +65,7 @@ body {
       font-size: 90%;
     }
     .info2{
+        padding-left: 20px;
         opacity: 60%;
     font-size: 12px;
 margin: 30px;
@@ -280,6 +281,7 @@ body .section2 p {
                 }
             }
         }
+        
         body .section2 {
             margin: 150px 0px;
         }
@@ -297,5 +299,8 @@ body .section2 p {
         width: 100%;
         
     }
-    
+    body nav  .info2{
+        padding-left: 20px;
+        font-size: 12px;
+    }
 }
