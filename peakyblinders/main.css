@@ -11,6 +11,21 @@
           box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  /* Scrool bar */
+  /* // */
+}
+
+* ::-webkit-scrollbar {
+  width: 6px;
+}
+
+* ::-webkit-scrollbar-thumb {
+  background-color: #3d3b3d4f;
+  border-radius: 10px;
+}
+
+* ::-webkit-scrollbar-track {
+  background: #03031c2a;
 }
 
 body {
