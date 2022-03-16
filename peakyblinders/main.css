@@ -46,10 +46,33 @@ body nav p {
   color: white;
 }
 
-body nav img {
+body nav #play {
+  -webkit-filter: drop-shadow(2px 4px 6px black);
+          filter: drop-shadow(2px 4px 6px black);
   opacity: 50%;
   margin: -20px 5%;
   width: 50px;
+  position: relative;
+  -webkit-animation: mymove 2s infinite;
+          animation: mymove 2s infinite;
+}
+
+@-webkit-keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 20px;
+  }
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 20px;
+  }
 }
 
 body nav .info {
@@ -245,6 +268,7 @@ body .section2 p {
             justify-content: center;
   }
   body main .section1 p {
+    padding-top: 55px;
     padding-left: 50px;
   }
   body main .section1 p:hover {
@@ -261,8 +285,8 @@ body .section2 p {
   body button {
     margin: 0 60px 21px 20%;
   }
-  .section2 p {
-    width: 99%;
+  body .section2 p {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */

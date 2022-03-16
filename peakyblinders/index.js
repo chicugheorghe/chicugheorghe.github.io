@@ -1,5 +1,5 @@
 function myFunction() {
-    let x = document.getElementById("myDIV","myDIV2");
+    let x = document.getElementById("myDIV");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
@@ -15,6 +15,41 @@ function myFunction() {
       }
     }
 
+    function myFunction3() {
+        let x = document.getElementById("myDIV3");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+
+        function myFunction4() {
+            let x = document.getElementById("myDIV4");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+
+            function myFunction5() {
+                let x = document.getElementById("myDIV5");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                  } else {
+                    x.style.display = "none";
+                  }
+                }
+
+                function myFunction6() {
+                    let x = document.getElementById("myDIV6");
+                    if (x.style.display === "none") {
+                        x.style.display = "block";
+                      } else {
+                        x.style.display = "none";
+                      }
+                    }
 
     ///BUTTON
 

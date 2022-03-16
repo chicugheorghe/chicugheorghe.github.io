@@ -45,10 +45,19 @@ body {
       font-size: 150%;
       color: white;
     }
-    img{
+    #play{
+        filter: drop-shadow(2px 4px 6px black);
         opacity: 50%;
         margin: -20px 5% ;
         width: 50px;
+        position: relative;
+        animation: mymove 2s infinite;
+        
+        @keyframes mymove {
+            from {left: 0px;}
+            to {left: 20px;}
+            
+          }
         
     }
     .info {
@@ -255,7 +264,7 @@ body .section2 p {
             flex-wrap: wrap;
             justify-content: center;
             p{
-                
+                padding-top: 55px;
                 padding-left: 50px;
                 &:hover{
                     border: none;
@@ -275,8 +284,8 @@ body .section2 p {
         }
         
     }
-    .section2 p {
-        width: 99%;
+   body .section2 p {
+        width: 100%;
         
     }
     
