@@ -243,7 +243,7 @@ body .section2 p {
             margin: -20px 40%;
         }
         body nav .info {
-            font-size: 120%;
+            font-size: 110%;
         }
         body .section1 p {
             font-size: 35px;
@@ -263,6 +263,10 @@ body .section2 p {
          nav h4 {
             width: 100%;
             font-size: 210%;
+        }
+         nav  .info2{
+            padding-left: 20px;
+            font-size: 12px;
         }
          nav p {
             width: 80%;
@@ -299,8 +303,5 @@ body .section2 p {
         width: 100%;
         
     }
-    body nav  .info2{
-        padding-left: 20px;
-        font-size: 12px;
-    }
+    
 }
