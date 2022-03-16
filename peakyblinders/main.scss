@@ -208,6 +208,29 @@ body .section2 p {
      }
     }
   
+    @media (max-width:390px){
+        body nav a #logo{
+            width: 30%;
+            margin-left: 125px;
+        }
+        body nav h4 {
+            margin: 33px 26px;
+            font-size: 300%;
+        }
+        body nav p {
+            width: 80%;
+        }
+        body nav img {
+            margin: -20px 40%;
+        }
+        body nav .info {
+            font-size: 120%;
+        }
+        body .section1 p {
+            font-size: 35px;
+        }
+
+    }
 @media (max-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
     body{
         
