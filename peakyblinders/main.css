@@ -23,6 +23,7 @@ body {
 
 body nav a #logo {
   width: 10%;
+  min-width: auto;
   margin: 10px;
   opacity: 50%;
 }
@@ -67,7 +68,7 @@ body .section1 {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 body .section1 p {
@@ -85,19 +86,12 @@ body .section1 p:hover {
 body .section2 {
   width: 100%;
   margin-top: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 body .section2 iframe {
-  margin: 15px 0;
-  width: 30%;
-  height: 253px;
+  width: 90%;
+  height: 30rem;
+  margin: 0 5%;
   border: none;
   opacity: 50%;
   -webkit-transition: ease-in-out 0.2s;
@@ -106,5 +100,102 @@ body .section2 iframe {
 
 body .section2 iframe:hover {
   opacity: 100%;
+}
+
+body button {
+  margin: 0 20px 20px 40%;
+  width: 200px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px groove #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+body button:hover {
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+}
+
+body .section2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 90%;
+  margin: 150px 5%;
+}
+
+body .section2 img {
+  float: left;
+  padding: 5px;
+  width: 20%;
+}
+
+body .section2 p {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 50px;
+}
+
+@media (max-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  body {
+    overflow-x: hidden;
+  }
+  body nav a #logo {
+    width: 30%;
+    margin: 10px 122px;
+  }
+  body nav h4 {
+    width: 100%;
+    font-size: 210%;
+  }
+  body nav p {
+    width: 80%;
+    font-size: 120%;
+  }
+  main .section1 {
+    margin-left: -13px;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .section1 p {
+    padding-left: 50px;
+  }
+  body .section2 iframe {
+    margin: 0 -5%;
+    width: 320px;
+    height: 400px;
+  }
+  body button {
+    margin: 0 60px 21px 20%;
+  }
+  body .section2 {
+    margin: 150px 3%;
+  }
+}
+
+@media (min-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+}
+
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+
+@media (min-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
 }
 /*# sourceMappingURL=main.css.map */
