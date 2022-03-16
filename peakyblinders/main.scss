@@ -51,17 +51,26 @@ body {
         margin: -20px 5% ;
         width: 50px;
         position: relative;
-        animation: mymove 2s infinite;
+    
+        animation: mymove 3s infinite;
         
         @keyframes mymove {
-            from {left: 0px;}
-            to {left: 20px;}
+            from {left: 5px;opacity: 30%; }
+            to {left: 20px; opacity: 100%;}
             
           }
         
     }
     .info {
       font-size: 90%;
+    }
+    .info2{
+        opacity: 60%;
+    font-size: 12px;
+margin: 30px;
+&:hover{
+    opacity: 100%;
+}
     }
   }
 

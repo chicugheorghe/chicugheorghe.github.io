@@ -53,30 +53,44 @@ body nav #play {
   margin: -20px 5%;
   width: 50px;
   position: relative;
-  -webkit-animation: mymove 2s infinite;
-          animation: mymove 2s infinite;
+  -webkit-animation: mymove 3s infinite;
+          animation: mymove 3s infinite;
 }
 
 @-webkit-keyframes mymove {
   from {
-    left: 0px;
+    left: 5px;
+    opacity: 30%;
   }
   to {
     left: 20px;
+    opacity: 100%;
   }
 }
 
 @keyframes mymove {
   from {
-    left: 0px;
+    left: 5px;
+    opacity: 30%;
   }
   to {
     left: 20px;
+    opacity: 100%;
   }
 }
 
 body nav .info {
   font-size: 90%;
+}
+
+body nav .info2 {
+  opacity: 60%;
+  font-size: 12px;
+  margin: 30px;
+}
+
+body nav .info2:hover {
+  opacity: 100%;
 }
 
 body main video {
