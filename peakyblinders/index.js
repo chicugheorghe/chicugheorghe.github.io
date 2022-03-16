@@ -29,4 +29,14 @@ function myFunction() {
 }
 
 
+//trailer///////////////////////////////
 
+function trailer () {
+    const b = document.getElementById ("trailer");
+    if (b.style.display === "none") {
+        b.style.display = "block";
+ 
+     }else {
+         b.style.display = "none";
+     }
+}

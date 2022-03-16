@@ -46,6 +46,11 @@ body nav p {
   color: white;
 }
 
+body nav img {
+  margin: -20px 5%;
+  width: 3%;
+}
+
 body nav .info {
   font-size: 90%;
 }
@@ -137,11 +142,63 @@ body .section2 p {
   margin-top: 50px;
 }
 
+@media (max-width: 1281px) {
+  /* hi-res laptops and desktops */
+}
+
+@media (max-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  body nav p {
+    width: 60%;
+  }
+  body .section2 iframe {
+    width: 98%;
+    height: 30rem;
+    margin: 0 -2%;
+    border: none;
+    opacity: 50%;
+    -webkit-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+  }
+  body .section2 iframe:hover {
+    opacity: 100%;
+  }
+  body button {
+    margin: 0 60px 21px 30%;
+  }
+  body .section2 p {
+    width: 98%;
+    margin-left: -0%;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  body nav p {
+    width: 60%;
+    font-size: 150%;
+  }
+}
+
+@media (max-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  body button {
+    margin: 0 60px 21px 20%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+  body .section2 iframe {
+    margin: 0 0%;
+    width: 100%;
+    height: 400px;
+  }
+}
+
 @media (max-width: 320px) {
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-  body {
-    overflow-x: hidden;
-  }
   body nav a #logo {
     width: 30%;
     margin: 10px 122px;
@@ -154,7 +211,7 @@ body .section2 p {
     width: 80%;
     font-size: 120%;
   }
-  main .section1 {
+  body main .section1 {
     margin-left: -13px;
     width: 100%;
     -ms-flex-wrap: wrap;
@@ -163,39 +220,25 @@ body .section2 p {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  main .section1 p {
+  body main .section1 p {
     padding-left: 50px;
   }
+  body main .section1 p:hover {
+    border: none;
+  }
+  body body .section2 {
+    margin: 150px 0px;
+  }
   body .section2 iframe {
-    margin: 0 -5%;
-    width: 320px;
+    margin-left: -15px;
+    width: 315px;
     height: 400px;
   }
   body button {
     margin: 0 60px 21px 20%;
   }
-  body .section2 {
-    margin: 150px 3%;
+  .section2 p {
+    width: 99%;
   }
-}
-
-@media (min-width: 480px) {
-  /* smartphones, Android phones, landscape iPhone */
-}
-
-@media (min-width: 600px) {
-  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-}
-
-@media (min-width: 801px) {
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
-}
-
-@media (min-width: 1025px) {
-  /* big landscape tablets, laptops, and desktops */
-}
-
-@media (min-width: 1281px) {
-  /* hi-res laptops and desktops */
 }
 /*# sourceMappingURL=main.css.map */
