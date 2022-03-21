@@ -34,6 +34,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   overflow-x: hidden;
+  
 }
 
 body nav a #logo {
@@ -103,6 +104,7 @@ body nav .info2 {
   opacity: 60%;
   font-size: 12px;
   margin: 30px;
+  
 }
 
 body nav .info2:hover {
@@ -120,49 +122,38 @@ body main video:hover {
   opacity: 100%;
 }
 
-body .section1 {
-  height: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-top: 60px;
-}
 
-body .section1 p {
+
+body  .seson {
   color: white;
   font-size: 45px;
   cursor: pointer;
+  
 }
 
-body .section1 p:hover {
+body  .seson:hover {
   -webkit-filter: drop-shadow(2px 4px 6px black);
           filter: drop-shadow(2px 4px 6px black);
   border-bottom: 2px groove white;
 }
 
-body .section2 {
-  width: 100%;
-  margin-top: 100px;
-}
 
-body .section2 iframe {
+
+body  iframe {
   width: 90%;
   height: 30rem;
-  margin: 0 5%;
   border: none;
   opacity: 50%;
   -webkit-transition: ease-in-out 0.2s;
   transition: ease-in-out 0.2s;
 }
 
-body .section2 iframe:hover {
+body  iframe:hover {
   opacity: 100%;
 }
 
 body button {
-  margin: 0 20px 20px 40%;
+  margin: 700px 20px 20px 40%;
   width: 200px;
   height: 50px;
   background-color: rgba(255, 255, 255, 0.5);
@@ -196,6 +187,34 @@ body .section2 p {
   margin-top: 50px;
 }
 
+
+/* acordion */
+
+.accordion-title.active + .accordion-cont {
+  display: block;
+}
+.accordion-cont {
+  display: none;
+}
+#accordion{
+  /* padding: 50px; */
+  width: 100%;
+  justify-content:space-evenly;
+  display: flex;
+  
+}
+.accordion-cont  {
+  width: 90%;
+  position: absolute;
+ margin-top: 200px;
+ left: 10%;
+ 
+}
+
+
+
+/* //////////////acordion */
+
 @media (max-width: 1281px) {
   /* hi-res laptops and desktops */
 }
@@ -205,7 +224,7 @@ body .section2 p {
   body nav p {
     width: 60%;
   }
-  body .section2 iframe {
+  body  iframe {
     width: 98%;
     height: 30rem;
     margin: 0 -2%;
@@ -214,17 +233,13 @@ body .section2 p {
     -webkit-transition: ease-in-out 0.2s;
     transition: ease-in-out 0.2s;
   }
-  body .section2 iframe:hover {
+  body iframe:hover {
     opacity: 100%;
   }
   body button {
-    margin: 0 60px 21px 30%;
+    margin: 700px 60px 21px 30%;
   }
-  body .section2 p {
-    width: 98%;
-    margin-left: -0%;
-    margin-top: 50px;
-  }
+  
 }
 
 @media (max-width: 801px) {
@@ -238,14 +253,14 @@ body .section2 p {
 @media (max-width: 600px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
   body button {
-    margin: 0 60px 21px 20%;
+    margin: 700px 60px 21px 20%;
   }
 }
 
 @media (max-width: 480px) {
   /* smartphones, Android phones, landscape iPhone */
-  body .section2 iframe {
-    margin: 0 0%;
+  body iframe {
+    margin: 0 -5%;
     width: 100%;
     height: 400px;
   }
@@ -295,7 +310,7 @@ body .section2 p {
   body nav #play {
     margin-left: 110px;
   }
-  body main .section1 {
+  body  #accordion {
     margin-left: -13px;
     width: 100%;
     -ms-flex-wrap: wrap;
@@ -303,24 +318,28 @@ body .section2 p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+            
   }
-  body main .section1 p {
+  
+  body .seson{
     padding-top: 55px;
     padding-left: 50px;
   }
-  body main .section1 p:hover {
-    border: none;
+  
+  body  .seson:hover {
+    -webkit-filter: drop-shadow(2px 4px 6px black);
+            filter: drop-shadow(2px 4px 6px black);
+    border-bottom: none;
   }
-  body body .section2 {
-    margin: 150px 0px;
-  }
-  body .section2 iframe {
+  
+  body iframe {
+    margin-top: 100px;
     margin-left: -15px;
     width: 319px;
     height: 400px;
   }
   body button {
-    margin: 0 60px 21px 20%;
+    margin: 700px 60px 21px 20%;
   }
   body .section2 p {
     width: 100%;
