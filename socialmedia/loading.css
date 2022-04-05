@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(cool-background.png);
+    width: 100vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 6rem;
+    color: white;
+    padding: 50px;
+}
+
+ h1 {
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .1em; 
+    animation: 
+      typing 5.5s steps(80, end),
+      blink-caret .75s infinite;
+  }
+  
+  
+  @keyframes typing {
+    from { width: 0% }
+    to { width: 100% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+
+  
+
+  .logi-form{
+      width: 500px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      border-radius: 10px;
+      margin: 0 800px;
+  }
+
+  .logi-form h2 {
+      padding-top: 10px;
+      font-size: 24px;
+      text-align: center;
+  }
+
+  .logi-form input{
+      width: 400px;
+      height: 40px;
+      border-radius: 10px;
+      border: none;
+      background-color: ghostwhite;
+      margin: 15px auto;
+      padding-left: 10px;
+  }
+  .logi-form  a{
+      text-decoration: none;
+      
+  }
+
+  .loginbtn{ 
+      width: 150px;
+      height: 50px;
+      border: none;
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+      font-size: 16px;
+  }
+
+  .loginbtn:hover{
+      background-color: rgb(214, 214, 214);
+  }
