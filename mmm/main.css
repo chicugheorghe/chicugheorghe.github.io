@@ -113,7 +113,7 @@ header .crypto {
   z-index: 3;
   position: absolute;
   max-width: 100%;
-  max-height: 80%;
+  max-height: 70%;
   /* border: 1px solid red; */
   margin: 500px 600px;
   -webkit-transition: all ease 0.8s;
@@ -134,7 +134,10 @@ header .crypto1 {
   display: -ms-flexbox;
   display: flex;
   max-width: 100%;
+  width: 30%;
   /* max-height: 70%; */
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
 }
 
 header .crypto1:hover {
