@@ -23,7 +23,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 90%;
-  
   /* border: 5px solid red; */
   margin: 0 auto;
   margin-top: 60px;
@@ -379,45 +378,6 @@ footer {
   }
 }
 
-@media only screen and (min-width: 1900px){
-  header{
-    height: 905px;
-  }
-  header .crypto {
-    width: 30%;
-    height: 30%;
-    margin-left: 60%;
-   
-}
-body  .iframe1{
-  margin-top: 600px;
-}
-header .nav-link a {
-  font-size: 30px;
-
-}
-header .logo {
-  margin: 55px;
-  margin-left: 42%;
-  width: 15%;
-  height: 60px;
- 
-}
-
-.container-3-position .container-3 {
-  width: 460px;
-  .container-3-detail{
-    font-size: 28px;
-  }
-}
-.container-1 .container-2 .container2-paragraf {
-  font-size: 30px;
-}
-.container-1 .container-2 .container2-title {
-  font-size: 30px;
-}
-}
-
 @media only screen and (max-width: 1115px) {
   header .iframe2 {
     position: absolute;
@@ -652,12 +612,4 @@ header .logo {
   footer {
     margin-top: 70px;
   }
-}
-
-@media only screen and (max-width: 358px){
-  header .nav-link {
-    margin-left: -65px;
-}
-
-
 }
