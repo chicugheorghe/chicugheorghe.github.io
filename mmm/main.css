@@ -452,16 +452,18 @@ footer a:hover {
 }
 
 @media only screen and (min-width: 1900px) {
+  header .iframe2 {
+    position: absolute;
+    margin: -734px 178px;
+  }
   header {
     height: 905px;
+    position: relative;
   }
   header .crypto {
     width: 30%;
     height: 30%;
     margin-left: 60%;
-  }
-  body .iframe1 {
-    margin-top: 600px;
   }
   header .nav-link a {
     font-size: 30px;
