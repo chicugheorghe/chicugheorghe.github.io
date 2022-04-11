@@ -1,0 +1,44 @@
+*{
+    font-style: unset;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+h1{
+    font-size: 56px;
+    text-align: center;
+    color: white;
+}
+h3{
+    font-size: 56px;
+    text-align: center;
+    color: white;
+}
+
+
+
+iframe{
+  margin: 0 auto;
+  display: block;
+  border: none;
+  border-radius: 10px;
+}
+button{
+
+    display: block;
+    margin: 50px auto;
+    width: 150px;
+    height: 50px;
+    font-size: 22px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+button:hover{
+    background-color: greenyellow;
+}
